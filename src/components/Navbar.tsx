@@ -16,9 +16,9 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => (
     </div>
     <div className="flex items-center gap-2 sm:gap-4 text-sm">
       <span className="text-gray-500 hidden sm:block">安全 · 快速 · 本地处理</span>
-      <button className="bg-gray-900 text-white px-3 sm:px-4 py-2 rounded-lg text-xs font-medium hover:bg-gray-800 transition-colors">
+      <a href="https://github.com/moreoronce/pdfmaster" target="_blank" rel="noopener noreferrer" className="bg-gray-900 text-white px-3 sm:px-4 py-2 rounded-lg text-xs font-medium hover:bg-gray-800 transition-colors">
         GitHub
-      </button>
+      </a>
     </div>
   </nav>
 );

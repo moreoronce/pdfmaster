@@ -16,7 +16,7 @@ export default function App() {
       {currentView === 'split' && <SplitPage onBack={() => setCurrentView('home')} />}
 
       <footer className="py-8 text-center text-gray-400 text-sm border-t border-gray-100 mt-auto bg-white">
-        &copy; 2024 PDF Master. All rights reserved.
+        &copy; 2026 Yawata@<a href="https://deeprouter.org" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors">DeepRouter</a>. All rights reserved.
       </footer>
     </div>
   );
